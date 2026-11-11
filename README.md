@@ -1,6 +1,6 @@
 # Foundry Agents · Field Guide
 
-A static GitHub Pages reading hub for [Manoranjan Rajguru's](https://medium.com/@manoranjan.rajguru/) Microsoft Foundry agent articles. The collection is organized into five pillars: **Model**, **Agent Building / Runtime**, **Governance**, **Observability**, and **Tools**.
+A static GitHub Pages reading hub for [Manoranjan Rajguru's](https://medium.com/@manoranjan.rajguru/) Microsoft Foundry agent articles. The collection is organized into six pillars: **Model**, **Agent Building**, **Governance**, **Observability**, **Tools**, and **Evaluation**.
 
 ## Run locally
 

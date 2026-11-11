@@ -1,4 +1,4 @@
-export const PILLAR_IDS = ['model', 'runtime', 'governance', 'observability', 'tools'];
+export const PILLAR_IDS = ['model', 'agent-building', 'governance', 'observability', 'tools', 'evaluation'];
 
 export function filterPosts(posts, { pillar = 'all', query = '', source = 'all', sort = 'newest' } = {}) {
   const search = query.trim().toLocaleLowerCase();
@@ -27,6 +27,7 @@ export function countByPillar(posts) {
 
 export function parsePillar(search) {
   const candidate = new URLSearchParams(search).get('pillar');
+  if (candidate === 'runtime') return 'agent-building';
   return PILLAR_IDS.includes(candidate) ? candidate : 'all';
 }
 

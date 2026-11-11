@@ -65,17 +65,29 @@ test('sorts by verified public publication date', () => {
 test('counts one article per primary pillar', () => {
   assert.deepEqual(countByPillar(posts), {
     model: 1,
-    runtime: 0,
+    'agent-building': 0,
     governance: 1,
     observability: 1,
     tools: 0,
+    evaluation: 0,
   });
 });
 
 test('accepts only known pillar deep links', () => {
   assert.equal(parsePillar('?pillar=tools'), 'tools');
+  assert.equal(parsePillar('?pillar=evaluation'), 'evaluation');
+  assert.equal(parsePillar('?pillar=agent-building'), 'agent-building');
+  assert.equal(parsePillar('?pillar=runtime'), 'agent-building');
   assert.equal(parsePillar('?pillar=anything'), 'all');
   assert.equal(parsePillar(''), 'all');
+});
+
+test('filters and counts evaluation articles independently from observability', () => {
+  const evaluationPost = { ...posts[0], id: 'sample-evaluation', pillar: 'evaluation' };
+  const catalog = [evaluationPost, posts[2]];
+  assert.deepEqual(filterPosts(catalog, { pillar: 'evaluation' }).map((post) => post.id), ['sample-evaluation']);
+  assert.equal(countByPillar(catalog).evaluation, 1);
+  assert.equal(countByPillar(catalog).observability, 1);
 });
 
 test('rejects draft and private URLs before a catalog can be published', () => {

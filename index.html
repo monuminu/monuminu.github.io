@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#09111d" />
     <meta
       name="description"
-      content="Explore Manoranjan Rajguru's Microsoft Foundry agent articles by five pillars: Model, Agent Building and Runtime, Governance, Observability, and Tools."
+      content="Explore Manoranjan Rajguru's Microsoft Foundry agent articles by six pillars: Model, Agent Building, Governance, Observability, Tools, and Evaluation."
     />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Foundry Agents · Field Guide" />
@@ -47,7 +47,7 @@
           <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> An independent reading map</p>
           <h1 id="hero-title">See the whole <span>agent stack.</span></h1>
           <p class="hero-lede">
-            Deep dives into Microsoft Foundry agents, organized around the five foundations you use to build,
+            Deep dives into Microsoft Foundry agents, organized around the six foundations you use to build,
             ship, and run them.
           </p>
           <div class="hero-actions">
@@ -56,13 +56,13 @@
           </div>
           <div class="hero-metrics" aria-label="Collection summary">
             <div><strong data-total-posts>—</strong><span>published articles</span></div>
-            <div><strong>05</strong><span>foundational pillars</span></div>
+            <div><strong>06</strong><span>foundational pillars</span></div>
             <div><strong>02</strong><span>reading platforms</span></div>
           </div>
         </div>
 
-        <div class="hero-visual" aria-label="The five pillars of the Foundry agent stack">
-          <div class="visual-header"><span>THE FIELD GUIDE</span><span>01 — 05</span></div>
+        <div class="hero-visual" aria-label="The six pillars of the Foundry agent stack">
+          <div class="visual-header"><span>THE FIELD GUIDE</span><span>01 — 06</span></div>
           <div class="visual-core">
             <div class="core-halo" aria-hidden="true"></div>
             <span class="core-small">THE CENTER</span>
@@ -73,10 +73,11 @@
           </div>
           <div class="visual-rows">
             <a href="?pillar=model#library" data-pillar-link="model"><span>01</span><strong>Model</strong><i aria-hidden="true"></i></a>
-            <a href="?pillar=runtime#library" data-pillar-link="runtime"><span>02</span><strong>Agent Building / Runtime</strong><i aria-hidden="true"></i></a>
+            <a href="?pillar=agent-building#library" data-pillar-link="agent-building"><span>02</span><strong>Agent Building</strong><i aria-hidden="true"></i></a>
             <a href="?pillar=governance#library" data-pillar-link="governance"><span>03</span><strong>Governance</strong><i aria-hidden="true"></i></a>
             <a href="?pillar=observability#library" data-pillar-link="observability"><span>04</span><strong>Observability</strong><i aria-hidden="true"></i></a>
             <a href="?pillar=tools#library" data-pillar-link="tools"><span>05</span><strong>Tools</strong><i aria-hidden="true"></i></a>
+            <a href="?pillar=evaluation#library" data-pillar-link="evaluation"><span>06</span><strong>Evaluation</strong><i aria-hidden="true"></i></a>
           </div>
           <div class="visual-footer"><span>FROM FIRST PRINCIPLES</span><span>TO PRODUCTION ↗</span></div>
         </div>
@@ -86,7 +87,7 @@
         <div class="section-heading">
           <div>
             <p class="section-kicker"><span>01</span> / THE STRUCTURE</p>
-            <h2 id="pillars-title">Five pillars. One connected picture.</h2>
+            <h2 id="pillars-title">Six pillars. One connected picture.</h2>
           </div>
           <p>Start with a foundation, then follow the ideas that connect across the stack.</p>
         </div>
@@ -97,35 +98,42 @@
             <h3>Model</h3>
             <p>Choose, compare, deploy, and tune the intelligence behind an agent.</p>
             <div class="pillar-tags"><span>Selection</span><span>Deployment</span><span>Tuning</span></div>
-            <div class="pillar-bottom"><span><b data-pillar-count="model">—</b> articles</span><span aria-hidden="true">↗</span></div>
+            <div class="pillar-bottom"><span><b data-pillar-count="model">—</b> <span data-pillar-unit="model">articles</span></span><span aria-hidden="true">↗</span></div>
           </a>
-          <a class="pillar-card pillar-runtime" href="?pillar=runtime#library" data-pillar-link="runtime">
+          <a class="pillar-card pillar-agent-building" href="?pillar=agent-building#library" data-pillar-link="agent-building">
             <div class="pillar-top"><span>02 / EXECUTION</span><span class="pillar-icon" aria-hidden="true">⌘</span></div>
-            <h3>Agent Building <small>/ Runtime</small></h3>
+            <h3>Agent Building</h3>
             <p>Design how agents think, converse, coordinate, and run in production.</p>
             <div class="pillar-tags"><span>Orchestration</span><span>Hosting</span><span>State</span></div>
-            <div class="pillar-bottom"><span><b data-pillar-count="runtime">—</b> articles</span><span aria-hidden="true">↗</span></div>
+            <div class="pillar-bottom"><span><b data-pillar-count="agent-building">—</b> <span data-pillar-unit="agent-building">articles</span></span><span aria-hidden="true">↗</span></div>
           </a>
           <a class="pillar-card pillar-governance" href="?pillar=governance#library" data-pillar-link="governance">
             <div class="pillar-top"><span>03 / TRUST</span><span class="pillar-icon" aria-hidden="true">◎</span></div>
             <h3>Governance</h3>
             <p>Control who an agent is, what it can access, and how it behaves.</p>
             <div class="pillar-tags"><span>Identity</span><span>Security</span><span>Guardrails</span></div>
-            <div class="pillar-bottom"><span><b data-pillar-count="governance">—</b> articles</span><span aria-hidden="true">↗</span></div>
+            <div class="pillar-bottom"><span><b data-pillar-count="governance">—</b> <span data-pillar-unit="governance">articles</span></span><span aria-hidden="true">↗</span></div>
           </a>
           <a class="pillar-card pillar-observability" href="?pillar=observability#library" data-pillar-link="observability">
             <div class="pillar-top"><span>04 / FEEDBACK</span><span class="pillar-icon" aria-hidden="true">⌁</span></div>
             <h3>Observability</h3>
-            <p>Trace behavior, measure quality, and monitor production health.</p>
-            <div class="pillar-tags"><span>Tracing</span><span>Evaluation</span><span>Monitoring</span></div>
-            <div class="pillar-bottom"><span><b data-pillar-count="observability">—</b> articles</span><span aria-hidden="true">↗</span></div>
+            <p>Trace agent runs and monitor production signals over time.</p>
+            <div class="pillar-tags"><span>Tracing</span><span>Telemetry</span><span>Monitoring</span></div>
+            <div class="pillar-bottom"><span><b data-pillar-count="observability">—</b> <span data-pillar-unit="observability">articles</span></span><span aria-hidden="true">↗</span></div>
           </a>
           <a class="pillar-card pillar-tools" href="?pillar=tools#library" data-pillar-link="tools">
             <div class="pillar-top"><span>05 / CAPABILITY</span><span class="pillar-icon" aria-hidden="true">✳</span></div>
             <h3>Tools</h3>
             <p>Connect agents to knowledge, APIs, data, and useful actions.</p>
             <div class="pillar-tags"><span>MCP</span><span>Search</span><span>Integrations</span></div>
-            <div class="pillar-bottom"><span><b data-pillar-count="tools">—</b> articles</span><span aria-hidden="true">↗</span></div>
+            <div class="pillar-bottom"><span><b data-pillar-count="tools">—</b> <span data-pillar-unit="tools">articles</span></span><span aria-hidden="true">↗</span></div>
+          </a>
+          <a class="pillar-card pillar-evaluation" href="?pillar=evaluation#library" data-pillar-link="evaluation">
+            <div class="pillar-top"><span>06 / QUALITY</span><span class="pillar-icon" aria-hidden="true">◇</span></div>
+            <h3>Evaluation</h3>
+            <p>Measure agent quality, probe safety, and turn results into improvements.</p>
+            <div class="pillar-tags"><span>Scoring</span><span>Red teaming</span><span>Optimization</span></div>
+            <div class="pillar-bottom"><span><b data-pillar-count="evaluation">—</b> <span data-pillar-unit="evaluation">articles</span></span><span aria-hidden="true">↗</span></div>
           </a>
         </div>
       </section>
@@ -133,7 +141,7 @@
       <section class="route-section container" aria-label="A suggested reading route">
         <div class="route-intro"><span class="route-symbol" aria-hidden="true">↗</span><div><strong>New to the stack?</strong><span>Follow a natural path from choices to outcomes.</span></div></div>
         <ol class="route-steps">
-          <li>Choose a model</li><li>Build the runtime</li><li>Connect tools</li><li>Govern access</li><li>Observe &amp; improve</li>
+          <li>Choose a model</li><li>Build an agent</li><li>Connect tools</li><li>Govern access</li><li>Observe behavior</li><li>Evaluate quality</li>
         </ol>
       </section>
 
@@ -167,10 +175,11 @@
         <div class="filter-row" role="group" aria-label="Filter by pillar">
           <a class="filter-chip" href="?pillar=all#library" data-pillar-link="all">All articles <span data-total-posts>—</span></a>
           <a class="filter-chip" href="?pillar=model#library" data-pillar-link="model">Model <span data-pillar-count="model">—</span></a>
-          <a class="filter-chip" href="?pillar=runtime#library" data-pillar-link="runtime">Building / Runtime <span data-pillar-count="runtime">—</span></a>
+          <a class="filter-chip" href="?pillar=agent-building#library" data-pillar-link="agent-building">Agent Building <span data-pillar-count="agent-building">—</span></a>
           <a class="filter-chip" href="?pillar=governance#library" data-pillar-link="governance">Governance <span data-pillar-count="governance">—</span></a>
           <a class="filter-chip" href="?pillar=observability#library" data-pillar-link="observability">Observability <span data-pillar-count="observability">—</span></a>
           <a class="filter-chip" href="?pillar=tools#library" data-pillar-link="tools">Tools <span data-pillar-count="tools">—</span></a>
+          <a class="filter-chip" href="?pillar=evaluation#library" data-pillar-link="evaluation">Evaluation <span data-pillar-count="evaluation">—</span></a>
         </div>
 
         <div class="results-line"><p id="results-count" aria-live="polite">Loading articles…</p><span id="active-pillar-label">All pillars</span></div>
@@ -185,11 +194,11 @@
       </section>
 
       <section id="about" class="about-section container" aria-labelledby="about-title">
-        <div class="about-index" aria-hidden="true"><span>F / A</span><span>01—05</span><div class="about-orbit"><i></i><i></i><i></i><i></i><i></i></div></div>
+        <div class="about-index" aria-hidden="true"><span>F / A</span><span>01—06</span><div class="about-orbit"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
         <div class="about-copy">
           <p class="section-kicker"><span>03</span> / ABOUT THIS GUIDE</p>
           <h2 id="about-title">Ideas that connect across the stack.</h2>
-          <p>Written by <strong>Manoranjan Rajguru</strong>, this collection maps practical Foundry agent topics into five clear places to start. Follow any article to read the full piece on its original platform.</p>
+          <p>Written by <strong>Manoranjan Rajguru</strong>, this collection maps practical Foundry agent topics into six clear places to start. Follow any article to read the full piece on its original platform.</p>
           <div class="about-links">
             <a href="https://medium.com/@manoranjan.rajguru/" target="_blank" rel="noopener noreferrer">Read on Medium <span aria-hidden="true">↗</span></a>
             <a href="https://dev.to/monuminu" target="_blank" rel="noopener noreferrer">Read on DEV.to <span aria-hidden="true">↗</span></a>

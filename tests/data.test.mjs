@@ -22,3 +22,15 @@ test('inventory identity is copied from actual rows, including day 38', () => {
 test('catalog never contains draft placeholders or connection details', () => {
   assert.ok(!/temp-slug|POSTGRES_CONNECTION_STRING|PGPASSWORD|postgresql:\/\//i.test(raw));
 });
+
+test('evaluation articles have their own pillar while tracing stays in observability', () => {
+  assert.equal(posts.find((post) => post.dayNumber === 5).pillar, 'evaluation');
+  assert.equal(posts.find((post) => post.dayNumber === 30).pillar, 'evaluation');
+  assert.equal(posts.find((post) => post.dayNumber === 10).pillar, 'observability');
+  assert.equal(posts.find((post) => post.title.startsWith('Azure AI Foundry Evaluations')).pillar, 'evaluation');
+});
+
+test('agent building uses its named pillar in the public catalog', () => {
+  assert.equal(posts.filter((post) => post.pillar === 'agent-building').length, 11);
+  assert.ok(posts.every((post) => post.pillar !== 'runtime'));
+});

@@ -3,18 +3,20 @@ import { countByPillar, filterPosts, parsePillar, validatePosts } from './catalo
 const pillarNames = {
   all: 'All pillars',
   model: 'Model',
-  runtime: 'Agent Building / Runtime',
+  'agent-building': 'Agent Building',
   governance: 'Governance',
   observability: 'Observability',
   tools: 'Tools',
+  evaluation: 'Evaluation',
 };
 
 const pillarColors = {
   model: '#c9f276',
-  runtime: '#8edbe5',
+  'agent-building': '#8edbe5',
   governance: '#c0adff',
   observability: '#ffc98d',
   tools: '#f0a8c8',
+  evaluation: '#94bfff',
 };
 
 const sourceNames = { medium: 'Medium', dev: 'DEV.to' };
@@ -115,6 +117,9 @@ function showCounts() {
   for (const element of document.querySelectorAll('[data-total-posts]')) element.textContent = posts.length;
   for (const element of document.querySelectorAll('[data-pillar-count]')) {
     element.textContent = counts[element.dataset.pillarCount] ?? 0;
+  }
+  for (const element of document.querySelectorAll('[data-pillar-unit]')) {
+    element.textContent = counts[element.dataset.pillarUnit] === 1 ? 'article' : 'articles';
   }
 }
 
