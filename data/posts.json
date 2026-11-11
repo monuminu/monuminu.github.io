@@ -1,0 +1,641 @@
+{
+  "checkedAt": "2026-11-11",
+  "posts": [
+    {
+      "id": "day-41",
+      "inventoryId": 42,
+      "dayNumber": 41,
+      "title": "Group Chat Orchestration in Microsoft Foundry: Giving Agents a Moderator Instead of a Monologue",
+      "summary": "Moderator-led group chat orchestration with speaker selection and termination.",
+      "pillar": "runtime",
+      "topics": [
+        "Group chat",
+        "Orchestration",
+        "Multi-agent"
+      ],
+      "publishedAt": "2026-11-11",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/group-chat-orchestration-in-microsoft-foundry-giving-agents-a-moderator-instead-of-a-monologue-42987ac54cf1"
+        }
+      ]
+    },
+    {
+      "id": "day-40",
+      "inventoryId": 41,
+      "dayNumber": 40,
+      "title": "A2A in Microsoft Foundry: Making Your Hosted Agent Callable by Agents You Don't Own",
+      "summary": "Agent cards, task lifecycle, and cross-agent A2A interoperability.",
+      "pillar": "runtime",
+      "topics": [
+        "A2A",
+        "Interoperability",
+        "Protocol"
+      ],
+      "publishedAt": "2026-11-10",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/a2a-in-microsoft-foundry-making-your-hosted-agent-callable-by-agents-you-dont-own-29b804321fd6"
+        }
+      ]
+    },
+    {
+      "id": "day-39",
+      "inventoryId": 40,
+      "dayNumber": 39,
+      "title": "The Browser Automation Tool in Microsoft Foundry: Giving Agents a Managed Browser Instead of a Scraper",
+      "summary": "Managed browser automation with Playwright Workspaces.",
+      "pillar": "tools",
+      "topics": [
+        "Browser",
+        "Playwright",
+        "Automation"
+      ],
+      "publishedAt": "2026-10-21",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/the-browser-automation-tool-in-microsoft-foundry-giving-agents-a-managed-browser-instead-of-a-fd246b13ae49"
+        }
+      ]
+    },
+    {
+      "id": "day-37",
+      "inventoryId": 37,
+      "dayNumber": 37,
+      "title": "Inside Microsoft Foundry Toolkit for VS Code: Architecture, Agent Inspector, and the Debug-to-Deploy Pipeline",
+      "summary": "Local debugging, hosted agents, and cloud deployment from VS Code.",
+      "pillar": "tools",
+      "topics": [
+        "VS Code",
+        "Debugging",
+        "Deployment"
+      ],
+      "publishedAt": "2026-10-20",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/inside-microsoft-foundry-toolkit-for-vs-code-architecture-agent-inspector-and-the-5fe12507a3e6"
+        },
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/inside-microsoft-foundry-toolkit-for-vs-code-architecture-agent-inspector-and-the-1ejk"
+        }
+      ]
+    },
+    {
+      "id": "day-38",
+      "inventoryId": 39,
+      "dayNumber": 38,
+      "title": "Fabric IQ in Microsoft Foundry: Letting Agents Reason Over Your Enterprise Ontology Instead of Your SQL Schema",
+      "summary": "Ontology-aware enterprise retrieval through Fabric IQ.",
+      "pillar": "tools",
+      "topics": [
+        "Fabric IQ",
+        "Ontology",
+        "Data"
+      ],
+      "publishedAt": "2026-10-20",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/fabric-iq-in-microsoft-foundry-letting-agents-reason-over-your-enterprise-ontology-instead-of-your-bafcfb41f9ed"
+        }
+      ]
+    },
+    {
+      "id": "day-30",
+      "inventoryId": 30,
+      "dayNumber": 30,
+      "title": "The AI Red Teaming Agent in Microsoft Foundry: Automating Adversarial Probing With PyRIT Before Your Agent Ships",
+      "summary": "Automated red teaming, adversarial probes, and safety scoring with PyRIT.",
+      "pillar": "governance",
+      "topics": [
+        "Red teaming",
+        "PyRIT",
+        "Safety"
+      ],
+      "publishedAt": "2026-10-19",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/the-ai-red-teaming-agent-in-microsoft-foundry-automating-adversarial-probing-with-pyrit-before-953650407b75"
+        }
+      ]
+    },
+    {
+      "id": "day-29",
+      "inventoryId": 29,
+      "dayNumber": 29,
+      "title": "Computer Use in Microsoft Foundry: Teaching Agents to Operate UIs",
+      "summary": "How computer use acts through screenshots and approval loops.",
+      "pillar": "tools",
+      "topics": [
+        "Computer use",
+        "UI automation",
+        "Safety"
+      ],
+      "publishedAt": "2026-10-13",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/computer-use-in-microsoft-foundry-teaching-agents-to-operate-uis-8a2d204842bb"
+        }
+      ]
+    },
+    {
+      "id": "day-27",
+      "inventoryId": 27,
+      "dayNumber": 27,
+      "title": "Handoff Orchestration in Microsoft Agent Framework",
+      "summary": "Mesh handoffs and context synchronization in multi-agent systems.",
+      "pillar": "runtime",
+      "topics": [
+        "Handoff",
+        "Orchestration",
+        "Context"
+      ],
+      "publishedAt": "2026-10-09",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/handoff-orchestration-in-microsoft-agent-framework-cdc598a7619c"
+        }
+      ]
+    },
+    {
+      "id": "day-24",
+      "inventoryId": 24,
+      "dayNumber": 24,
+      "title": "Entra Agent ID in Microsoft Foundry: How Your Agents Get a Real Identity",
+      "summary": "Identity blueprints, service principals, and RBAC for agent actions.",
+      "pillar": "governance",
+      "topics": [
+        "Entra Agent ID",
+        "RBAC",
+        "Identity"
+      ],
+      "publishedAt": "2026-10-09",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/entra-agent-id-in-microsoft-foundry-how-your-agents-get-a-real-identity-849e376e391a"
+        }
+      ]
+    },
+    {
+      "id": "azure-ai-foundry-evaluations-guardrails-red-teaming-do-they-work-on-th",
+      "inventoryId": null,
+      "dayNumber": null,
+      "title": "Azure AI Foundry Evaluations, Guardrails & Red Teaming: Do They Work on Third-Party or On-Prem Agents?",
+      "summary": "Where Foundry evaluation and safety controls apply to agents outside Azure.",
+      "pillar": "governance",
+      "topics": [
+        "Evaluation",
+        "Guardrails",
+        "Red teaming"
+      ],
+      "publishedAt": "2026-10-09",
+      "sources": [
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/azure-ai-foundry-evaluations-guardrails-red-teaming-do-they-work-on-third-party-or-on-prem-aa0"
+        }
+      ]
+    },
+    {
+      "id": "day-22",
+      "inventoryId": 22,
+      "dayNumber": 22,
+      "title": "Fine-Tuning in Microsoft Foundry: What LoRA, SFT, DPO, and RFT Actually Do to Your Model's Weights",
+      "summary": "What LoRA, SFT, DPO, and RFT change in a model.",
+      "pillar": "model",
+      "topics": [
+        "Fine-tuning",
+        "LoRA",
+        "DPO"
+      ],
+      "publishedAt": "2026-10-04",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/fine-tuning-in-microsoft-foundry-what-lora-sft-dpo-and-rft-actually-do-to-your-models-weights-2ec9c5f57d7b"
+        },
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/fine-tuning-in-microsoft-foundry-what-lora-sft-dpo-and-rft-actually-do-to-your-models-weights-1efj"
+        }
+      ]
+    },
+    {
+      "id": "day-21",
+      "inventoryId": 21,
+      "dayNumber": 21,
+      "title": "Inside the Microsoft Foundry Agent Endpoint: Versions, Canary Rollouts, and Publishing to Teams & Copilot",
+      "summary": "Agent versions, canary routing, and publishing to Teams or Copilot.",
+      "pillar": "runtime",
+      "topics": [
+        "Versioning",
+        "Canary",
+        "Endpoints"
+      ],
+      "publishedAt": "2026-10-03",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/microsoft-foundry-agent-endpoint-versions-canary-rollouts-and-publishing-to-teams-copilot-7c6ca459ac94"
+        },
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/inside-the-microsoft-foundry-agent-endpoint-versions-canary-rollouts-and-publishing-to-teams--2jc4"
+        }
+      ]
+    },
+    {
+      "id": "day-19",
+      "inventoryId": 19,
+      "dayNumber": 19,
+      "title": "Routines in Microsoft Foundry: Giving Agents a Pulse Without Running Your Own Scheduler",
+      "summary": "Scheduled, timer-driven, and event-triggered agent automation.",
+      "pillar": "runtime",
+      "topics": [
+        "Routines",
+        "Automation",
+        "Scheduling"
+      ],
+      "publishedAt": "2026-10-02",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/routines-in-microsoft-foundry-giving-agents-a-pulse-without-running-your-own-scheduler-1da4a4d65906"
+        }
+      ]
+    },
+    {
+      "id": "day-20",
+      "inventoryId": 20,
+      "dayNumber": 20,
+      "title": "Egress Policy Engineering in Microsoft Foundry: Controlling Where Hosted Agents Are Allowed to Talk",
+      "summary": "Network egress policies that govern where hosted agents can connect.",
+      "pillar": "governance",
+      "topics": [
+        "Egress",
+        "Networking",
+        "Policy"
+      ],
+      "publishedAt": "2026-10-02",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/egress-policy-engineering-in-microsoft-foundry-controlling-where-hosted-agents-are-allowed-to-talk-160cf436b489"
+        },
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/egress-policy-engineering-in-microsoft-foundry-controlling-where-hosted-agents-are-allowed-to-talk-4366"
+        }
+      ]
+    },
+    {
+      "id": "day-17",
+      "inventoryId": 17,
+      "dayNumber": 17,
+      "title": "Provisioned Throughput in Microsoft Foundry: The Capacity Math Nobody Does Until the Bill Arrives",
+      "summary": "Provisioned throughput math, quota, and cost planning for deployed models.",
+      "pillar": "model",
+      "topics": [
+        "PTU",
+        "Capacity",
+        "Cost"
+      ],
+      "publishedAt": "2026-09-29",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/provisioned-throughput-in-microsoft-foundry-the-capacity-math-nobody-does-until-the-bill-arrives-c35de719ff9f"
+        },
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/provisioned-throughput-in-microsoft-foundry-the-capacity-math-nobody-does-until-the-bill-arrives-5213"
+        }
+      ]
+    },
+    {
+      "id": "day-15",
+      "inventoryId": 15,
+      "dayNumber": 15,
+      "title": "Foundry IQ: Inside the Managed Knowledge Layer That Turns RAG Into an Agent Tool Call",
+      "summary": "Managed knowledge bases and agentic retrieval through Foundry IQ.",
+      "pillar": "tools",
+      "topics": [
+        "Foundry IQ",
+        "Retrieval",
+        "Knowledge"
+      ],
+      "publishedAt": "2026-09-29",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/foundry-iq-inside-the-managed-knowledge-layer-that-turns-rag-into-an-agent-tool-call-06ae54a07759"
+        },
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/foundry-iq-inside-the-managed-knowledge-layer-that-turns-rag-into-an-agent-tool-call-4l4k"
+        }
+      ]
+    },
+    {
+      "id": "day-16",
+      "inventoryId": 16,
+      "dayNumber": 16,
+      "title": "Human-in-the-Loop Approvals in Microsoft Foundry: Pausing Long-Running Agents Indefinitely Without Losing State",
+      "summary": "Suspend, approve, and resume durable long-running agent tasks.",
+      "pillar": "governance",
+      "topics": [
+        "Human approval",
+        "State",
+        "Recovery"
+      ],
+      "publishedAt": "2026-09-28",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/human-in-the-loop-approvals-in-microsoft-foundry-pausing-long-running-agents-indefinitely-without-13fb31e508ac"
+        },
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/human-in-the-loop-approvals-in-microsoft-foundry-pausing-long-running-agents-indefinitely-without-1ol1"
+        }
+      ]
+    },
+    {
+      "id": "day-11",
+      "inventoryId": 11,
+      "dayNumber": 11,
+      "title": "Sizing the Subnet: What Nobody Tells You About Microsoft Foundry Agent Service Networking Until Production Falls Over",
+      "summary": "Private networking, subnet capacity, and operational limits of agent hosting.",
+      "pillar": "governance",
+      "topics": [
+        "Networking",
+        "Subnet",
+        "Production"
+      ],
+      "publishedAt": "2026-09-23",
+      "sources": [
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/sizing-the-subnet-what-nobody-tells-you-about-microsoft-foundry-agent-service-networking-until-3lik"
+        }
+      ]
+    },
+    {
+      "id": "day-10",
+      "inventoryId": 10,
+      "dayNumber": 10,
+      "title": "Observability in Microsoft Foundry: Tracing Agent Runs, Continuous Evaluation, and the OpenTelemetry Data Plane",
+      "summary": "Traces, continuous evaluation, and OpenTelemetry signals for agent runs.",
+      "pillar": "observability",
+      "topics": [
+        "Tracing",
+        "OpenTelemetry",
+        "Evaluation"
+      ],
+      "publishedAt": "2026-09-22",
+      "sources": [
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/observability-in-microsoft-foundry-tracing-agent-runs-continuous-evaluation-and-the-4gp"
+        }
+      ]
+    },
+    {
+      "id": "day-09",
+      "inventoryId": 9,
+      "dayNumber": 9,
+      "title": "Voice Agents in Microsoft Foundry: Inside the Realtime Speech-to-Speech Architecture",
+      "summary": "Realtime speech architecture, live sessions, and voice-agent tool calls.",
+      "pillar": "runtime",
+      "topics": [
+        "Voice agents",
+        "Realtime",
+        "Speech"
+      ],
+      "publishedAt": "2026-09-21",
+      "sources": [
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/voice-agents-in-microsoft-foundry-inside-the-realtime-speech-to-speech-architecture-5f4b"
+        }
+      ]
+    },
+    {
+      "id": "day-08",
+      "inventoryId": 8,
+      "dayNumber": 8,
+      "title": "Code Interpreter Internals in Microsoft Foundry: What Actually Happens Inside That Sandbox",
+      "summary": "A look inside the Code Interpreter sandbox and its runtime lifecycle.",
+      "pillar": "tools",
+      "topics": [
+        "Code Interpreter",
+        "Sandbox",
+        "Python"
+      ],
+      "publishedAt": "2026-09-21",
+      "sources": [
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/code-interpreter-internals-in-microsoft-foundry-what-actually-happens-inside-that-sandbox-3ih"
+        }
+      ]
+    },
+    {
+      "id": "day-06",
+      "inventoryId": 6,
+      "dayNumber": 6,
+      "title": "MCP in Microsoft Foundry: The Toolbox Pattern for Trustworthy Tool Calling",
+      "summary": "MCP integration, toolbox governance, and trustworthy calls to external tools.",
+      "pillar": "tools",
+      "topics": [
+        "MCP",
+        "Toolbox",
+        "Authentication"
+      ],
+      "publishedAt": "2026-09-18",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/connecting-foundry-agents-to-mcp-servers-auth-approval-and-the-toolbox-pattern-a53c2626a0dc"
+        },
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/mcp-in-microsoft-foundry-the-toolbox-pattern-for-trustworthy-tool-calling-2mn9"
+        }
+      ]
+    },
+    {
+      "id": "day-05",
+      "inventoryId": 5,
+      "dayNumber": 5,
+      "title": "Inside the Foundry Agent Optimizer: How Microsoft Foundry Turns Prompt Engineering Into a Closed-Loop Evaluation Job",
+      "summary": "How evaluation and optimization turn prompt changes into a measured loop.",
+      "pillar": "observability",
+      "topics": [
+        "Optimization",
+        "Evaluation",
+        "Prompts"
+      ],
+      "publishedAt": "2026-09-18",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/inside-the-foundry-agent-optimizer-how-microsoft-foundry-turns-prompt-engineering-into-a-2997285c6749"
+        }
+      ]
+    },
+    {
+      "id": "day-04",
+      "inventoryId": 4,
+      "dayNumber": 4,
+      "title": "Foundry Local: What It Actually Means to Ship AI Inference Inside Your App, Not Behind an API",
+      "summary": "On-device inference, local runtimes, and hardware abstraction with Foundry Local.",
+      "pillar": "model",
+      "topics": [
+        "Local inference",
+        "Runtime",
+        "Deployment"
+      ],
+      "publishedAt": "2026-09-15",
+      "sources": [
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/foundry-local-what-it-actually-means-to-ship-ai-inference-inside-your-app-not-behind-an-api-345o"
+        }
+      ]
+    },
+    {
+      "id": "day-02",
+      "inventoryId": 2,
+      "dayNumber": 2,
+      "title": "Responses vs. Invocations: Choosing the Right Protocol for Microsoft Foundry Hosted Agents",
+      "summary": "Choose between Responses and Invocations for hosted-agent protocols.",
+      "pillar": "runtime",
+      "topics": [
+        "Protocols",
+        "Hosting",
+        "Responses API"
+      ],
+      "publishedAt": "2026-09-14",
+      "sources": [
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/responses-vs-invocations-choosing-the-right-protocol-for-microsoft-foundry-hosted-agents-1blp"
+        }
+      ]
+    },
+    {
+      "id": "day-03",
+      "inventoryId": 3,
+      "dayNumber": 3,
+      "title": "Autopilots in Microsoft Foundry: The Identity Model Behind Agents That Act as Themselves",
+      "summary": "Agent identity, blueprints, and the lifecycle of autonomous agents.",
+      "pillar": "governance",
+      "topics": [
+        "Agent identity",
+        "Lifecycle",
+        "RBAC"
+      ],
+      "publishedAt": "2026-09-14",
+      "sources": [
+        {
+          "platform": "medium",
+          "url": "https://medium.com/@manoranjan.rajguru/autopilots-in-microsoft-foundry-the-identity-model-behind-agents-that-act-as-themselves-d8afc2b1b290"
+        },
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/autopilots-in-microsoft-foundry-the-identity-model-behind-agents-that-act-as-themselves-3ohn"
+        }
+      ]
+    },
+    {
+      "id": "day-01",
+      "inventoryId": 1,
+      "dayNumber": 1,
+      "title": "Crash-Resilient Long-Running Agents in Microsoft Foundry: Leases, Checkpoints, and Side-Effect Fencing",
+      "summary": "How leases, checkpoints, and side-effect fencing keep long-running agents recoverable.",
+      "pillar": "runtime",
+      "topics": [
+        "Resilience",
+        "Checkpoints",
+        "Recovery"
+      ],
+      "publishedAt": "2026-09-12",
+      "sources": [
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/crash-resilient-long-running-agents-in-microsoft-foundry-leases-checkpoints-and-side-effect-1l93"
+        }
+      ]
+    },
+    {
+      "id": "automating-ai-agents-at-scale-a-deep-dive-into-azure-ai-foundry-routin",
+      "inventoryId": null,
+      "dayNumber": null,
+      "title": "Automating AI Agents at Scale: A Deep Dive into Azure AI Foundry Routines with Python",
+      "summary": "Build scheduled and timer-triggered agent workflows with Python.",
+      "pillar": "runtime",
+      "topics": [
+        "Routines",
+        "Python",
+        "Automation"
+      ],
+      "publishedAt": "2026-06-04",
+      "sources": [
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/automating-ai-agents-at-scale-a-deep-dive-into-azure-ai-foundry-routines-with-python-2n30"
+        }
+      ]
+    },
+    {
+      "id": "persistent-agent-memory-with-azure-ai-foundry-a-complete-developer-gui",
+      "inventoryId": null,
+      "dayNumber": null,
+      "title": "Persistent Agent Memory with Azure AI Foundry: A Complete Developer Guide",
+      "summary": "Build agents that retain and retrieve useful memory across conversations.",
+      "pillar": "runtime",
+      "topics": [
+        "Memory",
+        "State",
+        "Conversations"
+      ],
+      "publishedAt": "2026-06-02",
+      "sources": [
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/persistent-agent-memory-with-azure-ai-foundry-a-complete-developer-guide-2n14"
+        }
+      ]
+    },
+    {
+      "id": "agent-harness-explained-build-production-ready-ai-agents-with-microsof",
+      "inventoryId": null,
+      "dayNumber": null,
+      "title": "Agent Harness Explained: Build Production-Ready AI Agents with Microsoft Agent Framework",
+      "summary": "The execution wrapper that turns an agent into a production system.",
+      "pillar": "runtime",
+      "topics": [
+        "Agent Framework",
+        "Harness",
+        "Production"
+      ],
+      "publishedAt": "2026-05-30",
+      "sources": [
+        {
+          "platform": "dev",
+          "url": "https://dev.to/monuminu/agent-harness-explained-build-production-ready-ai-agents-with-microsoft-agent-framework-666"
+        }
+      ]
+    }
+  ]
+}

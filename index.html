@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#09111d" />
+    <meta
+      name="description"
+      content="Explore Manoranjan Rajguru's Microsoft Foundry agent articles by five pillars: Model, Agent Building and Runtime, Governance, Observability, and Tools."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Foundry Agents · Field Guide" />
+    <meta
+      property="og:description"
+      content="A practical reading map across the foundations of Microsoft Foundry agents."
+    />
+    <meta property="og:url" content="https://monuminu.github.io/" />
+    <link rel="canonical" href="https://monuminu.github.io/" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./src/app.mjs"></script>
+    <title>Foundry Agents · Field Guide</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#library">Skip to articles</a>
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./" aria-label="Foundry Agents Field Guide home">
+          <span class="brand-mark" aria-hidden="true"><span>F</span><i></i></span>
+          <span class="brand-name">Foundry Agents<span>Field Guide</span></span>
+        </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#pillars">Pillars</a>
+          <a href="#library">Articles</a>
+          <a href="#about">About</a>
+        </nav>
+        <a class="header-link" href="#library">Explore the library <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> An independent reading map</p>
+          <h1 id="hero-title">See the whole <span>agent stack.</span></h1>
+          <p class="hero-lede">
+            Deep dives into Microsoft Foundry agents, organized around the five foundations you use to build,
+            ship, and run them.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#pillars">Explore the pillars <span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="#library">Browse all articles <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-metrics" aria-label="Collection summary">
+            <div><strong data-total-posts>—</strong><span>published articles</span></div>
+            <div><strong>05</strong><span>foundational pillars</span></div>
+            <div><strong>02</strong><span>reading platforms</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="The five pillars of the Foundry agent stack">
+          <div class="visual-header"><span>THE FIELD GUIDE</span><span>01 — 05</span></div>
+          <div class="visual-core">
+            <div class="core-halo" aria-hidden="true"></div>
+            <span class="core-small">THE CENTER</span>
+            <strong>YOUR<br />AGENT</strong>
+            <span class="core-node core-node-one" aria-hidden="true"></span>
+            <span class="core-node core-node-two" aria-hidden="true"></span>
+            <span class="core-node core-node-three" aria-hidden="true"></span>
+          </div>
+          <div class="visual-rows">
+            <a href="?pillar=model#library" data-pillar-link="model"><span>01</span><strong>Model</strong><i aria-hidden="true"></i></a>
+            <a href="?pillar=runtime#library" data-pillar-link="runtime"><span>02</span><strong>Agent Building / Runtime</strong><i aria-hidden="true"></i></a>
+            <a href="?pillar=governance#library" data-pillar-link="governance"><span>03</span><strong>Governance</strong><i aria-hidden="true"></i></a>
+            <a href="?pillar=observability#library" data-pillar-link="observability"><span>04</span><strong>Observability</strong><i aria-hidden="true"></i></a>
+            <a href="?pillar=tools#library" data-pillar-link="tools"><span>05</span><strong>Tools</strong><i aria-hidden="true"></i></a>
+          </div>
+          <div class="visual-footer"><span>FROM FIRST PRINCIPLES</span><span>TO PRODUCTION ↗</span></div>
+        </div>
+      </section>
+
+      <section id="pillars" class="pillars-section container" aria-labelledby="pillars-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker"><span>01</span> / THE STRUCTURE</p>
+            <h2 id="pillars-title">Five pillars. One connected picture.</h2>
+          </div>
+          <p>Start with a foundation, then follow the ideas that connect across the stack.</p>
+        </div>
+
+        <div class="pillar-grid">
+          <a class="pillar-card pillar-model" href="?pillar=model#library" data-pillar-link="model">
+            <div class="pillar-top"><span>01 / FOUNDATION</span><span class="pillar-icon" aria-hidden="true">◈</span></div>
+            <h3>Model</h3>
+            <p>Choose, compare, deploy, and tune the intelligence behind an agent.</p>
+            <div class="pillar-tags"><span>Selection</span><span>Deployment</span><span>Tuning</span></div>
+            <div class="pillar-bottom"><span><b data-pillar-count="model">—</b> articles</span><span aria-hidden="true">↗</span></div>
+          </a>
+          <a class="pillar-card pillar-runtime" href="?pillar=runtime#library" data-pillar-link="runtime">
+            <div class="pillar-top"><span>02 / EXECUTION</span><span class="pillar-icon" aria-hidden="true">⌘</span></div>
+            <h3>Agent Building <small>/ Runtime</small></h3>
+            <p>Design how agents think, converse, coordinate, and run in production.</p>
+            <div class="pillar-tags"><span>Orchestration</span><span>Hosting</span><span>State</span></div>
+            <div class="pillar-bottom"><span><b data-pillar-count="runtime">—</b> articles</span><span aria-hidden="true">↗</span></div>
+          </a>
+          <a class="pillar-card pillar-governance" href="?pillar=governance#library" data-pillar-link="governance">
+            <div class="pillar-top"><span>03 / TRUST</span><span class="pillar-icon" aria-hidden="true">◎</span></div>
+            <h3>Governance</h3>
+            <p>Control who an agent is, what it can access, and how it behaves.</p>
+            <div class="pillar-tags"><span>Identity</span><span>Security</span><span>Guardrails</span></div>
+            <div class="pillar-bottom"><span><b data-pillar-count="governance">—</b> articles</span><span aria-hidden="true">↗</span></div>
+          </a>
+          <a class="pillar-card pillar-observability" href="?pillar=observability#library" data-pillar-link="observability">
+            <div class="pillar-top"><span>04 / FEEDBACK</span><span class="pillar-icon" aria-hidden="true">⌁</span></div>
+            <h3>Observability</h3>
+            <p>Trace behavior, measure quality, and monitor production health.</p>
+            <div class="pillar-tags"><span>Tracing</span><span>Evaluation</span><span>Monitoring</span></div>
+            <div class="pillar-bottom"><span><b data-pillar-count="observability">—</b> articles</span><span aria-hidden="true">↗</span></div>
+          </a>
+          <a class="pillar-card pillar-tools" href="?pillar=tools#library" data-pillar-link="tools">
+            <div class="pillar-top"><span>05 / CAPABILITY</span><span class="pillar-icon" aria-hidden="true">✳</span></div>
+            <h3>Tools</h3>
+            <p>Connect agents to knowledge, APIs, data, and useful actions.</p>
+            <div class="pillar-tags"><span>MCP</span><span>Search</span><span>Integrations</span></div>
+            <div class="pillar-bottom"><span><b data-pillar-count="tools">—</b> articles</span><span aria-hidden="true">↗</span></div>
+          </a>
+        </div>
+      </section>
+
+      <section class="route-section container" aria-label="A suggested reading route">
+        <div class="route-intro"><span class="route-symbol" aria-hidden="true">↗</span><div><strong>New to the stack?</strong><span>Follow a natural path from choices to outcomes.</span></div></div>
+        <ol class="route-steps">
+          <li>Choose a model</li><li>Build the runtime</li><li>Connect tools</li><li>Govern access</li><li>Observe &amp; improve</li>
+        </ol>
+      </section>
+
+      <section id="library" class="library-section container" aria-labelledby="library-title">
+        <div class="section-heading library-heading">
+          <div>
+            <p class="section-kicker"><span>02</span> / THE LIBRARY</p>
+            <h2 id="library-title">Find your next deep dive.</h2>
+          </div>
+          <p>Every article here links to a verified public post on Medium, DEV.to, or both.</p>
+        </div>
+
+        <div class="library-toolbar">
+          <label class="search-field" for="search-input">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="1.7" /><path d="m16 16 4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" /></svg>
+            <span class="sr-only">Search articles</span>
+            <input id="search-input" type="search" placeholder="Search topics, titles, concepts..." autocomplete="off" />
+          </label>
+          <label class="select-field">Platform
+            <select id="source-filter" aria-label="Filter by platform">
+              <option value="all">All platforms</option><option value="medium">Medium</option><option value="dev">DEV.to</option>
+            </select>
+          </label>
+          <label class="select-field">Sort by
+            <select id="sort-select" aria-label="Sort articles">
+              <option value="newest">Newest first</option><option value="oldest">Oldest first</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="filter-row" role="group" aria-label="Filter by pillar">
+          <a class="filter-chip" href="?pillar=all#library" data-pillar-link="all">All articles <span data-total-posts>—</span></a>
+          <a class="filter-chip" href="?pillar=model#library" data-pillar-link="model">Model <span data-pillar-count="model">—</span></a>
+          <a class="filter-chip" href="?pillar=runtime#library" data-pillar-link="runtime">Building / Runtime <span data-pillar-count="runtime">—</span></a>
+          <a class="filter-chip" href="?pillar=governance#library" data-pillar-link="governance">Governance <span data-pillar-count="governance">—</span></a>
+          <a class="filter-chip" href="?pillar=observability#library" data-pillar-link="observability">Observability <span data-pillar-count="observability">—</span></a>
+          <a class="filter-chip" href="?pillar=tools#library" data-pillar-link="tools">Tools <span data-pillar-count="tools">—</span></a>
+        </div>
+
+        <div class="results-line"><p id="results-count" aria-live="polite">Loading articles…</p><span id="active-pillar-label">All pillars</span></div>
+        <div id="article-grid" class="article-grid" role="list"></div>
+        <div id="empty-state" class="empty-state" hidden>
+          <span class="empty-symbol" aria-hidden="true">⌕</span>
+          <h3>No matching articles yet.</h3>
+          <p>Try a different search, pillar, or platform.</p>
+          <button id="clear-filters" class="button button-primary" type="button">Clear filters</button>
+        </div>
+        <noscript><p class="noscript-note">Turn on JavaScript to explore the library, or browse the original posts on <a href="https://medium.com/@manoranjan.rajguru/">Medium</a> and <a href="https://dev.to/monuminu">DEV.to</a>.</p></noscript>
+      </section>
+
+      <section id="about" class="about-section container" aria-labelledby="about-title">
+        <div class="about-index" aria-hidden="true"><span>F / A</span><span>01—05</span><div class="about-orbit"><i></i><i></i><i></i><i></i><i></i></div></div>
+        <div class="about-copy">
+          <p class="section-kicker"><span>03</span> / ABOUT THIS GUIDE</p>
+          <h2 id="about-title">Ideas that connect across the stack.</h2>
+          <p>Written by <strong>Manoranjan Rajguru</strong>, this collection maps practical Foundry agent topics into five clear places to start. Follow any article to read the full piece on its original platform.</p>
+          <div class="about-links">
+            <a href="https://medium.com/@manoranjan.rajguru/" target="_blank" rel="noopener noreferrer">Read on Medium <span aria-hidden="true">↗</span></a>
+            <a href="https://dev.to/monuminu" target="_blank" rel="noopener noreferrer">Read on DEV.to <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="independent-note">An independent guide to Microsoft Foundry. Not an official Microsoft website.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner"><a class="footer-brand" href="./">F<span>·</span>A <small>FIELD GUIDE</small></a><p>Built for curious agent builders.</p><a href="#hero-title">Back to top ↑</a></div>
+    </footer>
+  </body>
+</html>
