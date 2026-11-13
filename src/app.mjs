@@ -10,15 +10,6 @@ const pillarNames = {
   evaluation: 'Evaluation',
 };
 
-const pillarColors = {
-  model: '#c9f276',
-  'agent-building': '#8edbe5',
-  governance: '#c0adff',
-  observability: '#ffc98d',
-  tools: '#f0a8c8',
-  evaluation: '#94bfff',
-};
-
 const sourceNames = { medium: 'Medium', dev: 'DEV.to' };
 const searchInput = document.querySelector('#search-input');
 const sourceFilter = document.querySelector('#source-filter');
@@ -50,9 +41,8 @@ function appendText(parent, tag, className, value) {
 
 function createArticleCard(post) {
   const card = document.createElement('article');
-  card.className = 'article-card';
+  card.className = `article-card pillar-${post.pillar}`;
   card.setAttribute('role', 'listitem');
-  card.style.setProperty('--article-accent', pillarColors[post.pillar]);
 
   const meta = appendText(card, 'div', 'article-meta', '');
   appendText(meta, 'span', 'article-pillar', pillarNames[post.pillar]);
